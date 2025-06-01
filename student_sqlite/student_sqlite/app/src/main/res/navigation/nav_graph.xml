@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/studentListFragment">
+
+    <fragment
+        android:id="@+id/studentListFragment"
+        android:name="com.example.student_sqlite.StudentListFragment"
+        tools:layout="@layout/fragment_student_list" />
+    <fragment
+        android:id="@+id/addStudentFragment"
+        android:name="com.example.student_sqlite.AddStudentFragment"
+        tools:layout="@layout/fragment_add_student" />
+    <fragment
+        android:id="@+id/editStudentFragment"
+        android:name="com.example.student_sqlite.EditStudentFragment"
+        tools:layout="@layout/fragment_edit_student" />
+</navigation>
